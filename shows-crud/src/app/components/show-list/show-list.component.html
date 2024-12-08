@@ -1,0 +1,7 @@
+<h2>Show List</h2>
+<ul>
+  <li *ngFor="let show of shows">
+    {{ show.name }} 
+    <a [routerLink]="['/edit-show', show.id]">Edit</a>
+  </li>
+</ul>

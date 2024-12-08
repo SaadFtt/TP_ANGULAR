@@ -1,0 +1,7 @@
+<h2>Edit Show</h2>
+<form (ngSubmit)="editShow()">
+  <label for="name">Show Name:</label>
+  <input type="text" id="name" [(ngModel)]="show.name" name="name" required />
+
+  <button type="submit">Save Changes</button>
+</form>
